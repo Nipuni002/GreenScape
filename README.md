@@ -4,11 +4,11 @@ GreenScape is a full-featured digital solution designed to modernize and streaml
 
 🚀 Tech Stack
 
-Frontend: React.js (Responsive UI/UX with React Hooks and Tailwind CSS)
+Frontend: React.js 
 
 Backend: Node.js, Express.js
 
-Database: MongoDB (NoSQL, schema-flexible storage)
+Database: MongoDB 
 
 Other Integrations: Nodemailer, JWT Auth, AI Chatbot (NLP), Chart.js
 
@@ -40,9 +40,9 @@ Manage tools, plants, and fertilizers with low-stock alerts and supplier trackin
 
 Automate salary calculations, expense tracking, and generate monthly financial summaries.
 
-📊 Analytics Dashboard
+📊 Data Visualization
 
-Real-time insights through charts and graphs for appointments, employee stats, income trends, and more.
+Realtime Employee Performance and status charts with Chart.js and Recharts
 
 📌 My Contribution
 
@@ -55,6 +55,8 @@ Monitor team performance and responsibilities
 Simplify attendance and salary management
 
 Job opportunity and application management 
+
+Generate Reports, Search Bar and Email notifications
 
 
 📂 Project Structure
