@@ -60,10 +60,15 @@ Job opportunity and application management
 📂 Project Structure
 
 /frontend   # React.js Frontend
+
 /backend    # Node.js + Express Backend
+
 /config     # DB and API configurations
+
 /models     # MongoDB Models (Mongoose)
+
 /routes     # API Routes
+
 /controllers # Route Logic
 
  
