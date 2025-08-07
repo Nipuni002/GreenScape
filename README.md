@@ -4,59 +4,59 @@ GreenScape is a full-featured digital solution designed to modernize and streaml
 
 🚀 Tech Stack
 
-Frontend: React.js 
+- Frontend: React.js 
 
-Backend: Node.js, Express.js
+- Backend: Node.js, Express.js
 
-Database: MongoDB 
+- Database: MongoDB 
 
-Other Integrations: Nodemailer, JWT Auth, AI Chatbot (NLP), Chart.js
+- Other Integrations: Nodemailer, JWT Auth, AI Chatbot (NLP), Chart.js
 
 🎯 Key Features
 
 📅 Appointment Scheduling
 
-Book, update, and cancel landscaping service appointments with calendar integration and email confirmations.
+- Book, update, and cancel landscaping service appointments with calendar integration and email confirmations.
 
 👨‍💼 Employee & Career Management (My Contribution)
 
-Add, update, and remove employee records
+- Add, update, and remove employee records
 
-Assign roles and manage employee profiles
+- Assign roles and manage employee profiles
 
-Track performance, task history, and attendance
+- Track performance, task history, and attendance
 
-View open positions and process applications
+- View open positions and process applications
 
 🤖 AI Chatbot Support
 
-Natural Language Processing-based chatbot for real-time customer support and query handling.
+- Natural Language Processing-based chatbot for real-time customer support and query handling.
 
 🌾 Inventory Management
 
-Manage tools, plants, and fertilizers with low-stock alerts and supplier tracking.
+- Manage tools, plants, and fertilizers with low-stock alerts and supplier tracking.
 
 💰 Finance & Payroll Module
 
-Automate salary calculations, expense tracking, and generate monthly financial summaries.
+- Automate salary calculations, expense tracking, and generate monthly financial summaries.
 
 📊 Data Visualization
 
-Realtime Employee Performance and status charts with Chart.js and Recharts
+- Realtime Employee Performance and status charts with Chart.js and Recharts
 
 📌 My Contribution
 
 I developed and integrated the Employee & Career Management Module, ensuring seamless management of HR operations with a user-friendly interface and robust backend functionality. This feature helps administrators:
 
-Maintain updated employee records
+- Maintain updated employee records
 
-Monitor team performance and responsibilities
+- Monitor team performance and responsibilities
 
-Simplify attendance and salary management
+- Simplify attendance and salary management
 
-Job opportunity and application management 
+- Job opportunity and application management 
 
-Generate Reports, Search Bar and Email notifications
+- Generate Reports, Search Bar and Email notifications
 
 
 📂 Project Structure
