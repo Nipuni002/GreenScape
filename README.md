@@ -1,17 +1,71 @@
-# Landscape and Gardening Service system
+# 🌿 GreenScape – Landscaping & Garden Services Management System
 
-"GreenScape – Landscaping & Garden Services Management System" is a complete digital solution built using the 𝗠𝗘𝗥𝗡 stack (𝗠𝗼𝗻𝗴𝗼𝗗𝗕, 𝗘𝘅𝗽𝗿𝗲𝘀𝘀.𝗷𝘀, 𝗥𝗲𝗮𝗰𝘁.𝗷𝘀, 𝗡𝗼𝗱𝗲.𝗷𝘀) — a powerful combination enabling efficient data handling, modern UI/UX, and robust server-side performance.
+GreenScape is a full-featured digital solution designed to modernize and streamline landscaping and garden service operations. Built using the powerful MERN Stack (MongoDB, Express.js, React.js, Node.js), it offers a scalable, responsive, and user-friendly platform for service providers and customers alike.
 
-Key Features & Services Offered:
+🚀 Tech Stack
 
-📅 Appointment Scheduling + automated email notifications
- 👨‍💼 Employee & Career Management 
- 🤖 AI Chatbot (NLP) for instant support
- 🌾 Inventory Control with low-stock notifications
- 💰 Finance Management with salary tracking
- 📊 Analytics Dashboard for insights                                                  
+Frontend: React.js (Responsive UI/UX with React Hooks and Tailwind CSS)
 
- I include in this my part  Employee & Career Management .
+Backend: Node.js, Express.js
+
+Database: MongoDB (NoSQL, schema-flexible storage)
+
+Other Integrations: Nodemailer, JWT Auth, AI Chatbot (NLP), Chart.js
+
+🎯 Key Features
+
+📅 Appointment Scheduling
+
+Book, update, and cancel landscaping service appointments with calendar integration and email confirmations.
+
+👨‍💼 Employee & Career Management (My Contribution)
+
+Add, update, and remove employee records
+
+Assign roles and manage employee profiles
+
+Track performance, task history, and attendance
+
+View open positions and process applications
+
+🤖 AI Chatbot Support
+
+Natural Language Processing-based chatbot for real-time customer support and query handling.
+
+🌾 Inventory Management
+
+Manage tools, plants, and fertilizers with low-stock alerts and supplier tracking.
+
+💰 Finance & Payroll Module
+
+Automate salary calculations, expense tracking, and generate monthly financial summaries.
+
+📊 Analytics Dashboard
+
+Real-time insights through charts and graphs for appointments, employee stats, income trends, and more.
+
+📌 My Contribution
+
+I developed and integrated the Employee & Career Management Module, ensuring seamless management of HR operations with a user-friendly interface and robust backend functionality. This feature helps administrators:
+
+Maintain updated employee records
+
+Monitor team performance and responsibilities
+
+Simplify attendance and salary management
+
+Job opportunity and application management 
+
+
+📂 Project Structure
+
+/frontend   # React.js Frontend
+/backend    # Node.js + Express Backend
+/config     # DB and API configurations
+/models     # MongoDB Models (Mongoose)
+/routes     # API Routes
+/controllers # Route Logic
+
  
 ![Screenshot (795)](https://github.com/user-attachments/assets/542a1cfa-a937-4066-bb03-114c55288f73)
 
