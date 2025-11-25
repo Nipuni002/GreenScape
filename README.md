@@ -92,21 +92,6 @@ This module significantly improves administrative efficiency and workforce trans
 
 ---
 
-## 📂 Project Structure
-
-/frontend # React.js Frontend
-├── src/
-├── components/
-├── pages/
-└── hooks/
-
-/backend # Node.js + Express Backend
-├── controllers/ # Business Logic
-├── routes/ # API Routes
-├── models/ # Mongoose Schemas
-├── config/ # DB & Server Configurations
-├── middleware/ # Auth & Error Handling
-└── utils/ # Helpers (Email, Tokens, etc.)
  
 ![Screenshot (795)](https://github.com/user-attachments/assets/542a1cfa-a937-4066-bb03-114c55288f73)
 
