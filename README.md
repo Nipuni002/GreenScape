@@ -1,78 +1,112 @@
 # 🌿 GreenScape – Landscaping & Garden Services Management System
 
-GreenScape is a full-featured digital solution designed to modernize and streamline landscaping and garden service operations. Built using the powerful MERN Stack (MongoDB, Express.js, React.js, Node.js), it offers a scalable, responsive, and user-friendly platform for service providers and customers alike.
+GreenScape is a complete digital platform built to modernize and streamline landscaping and garden service operations. Developed using the **MERN Stack (MongoDB, Express.js, React.js, Node.js)**, it provides a scalable, responsive, and user-friendly experience for both administrators and customers. The system integrates intelligent automation, real-time data insights, and modern UI/UX design to ensure efficient management of services, employees, and customer interactions.
 
-🚀 Tech Stack
+---
 
-- Frontend: React.js 
+## 🚀 Tech Stack
 
-- Backend: Node.js, Express.js
+### **Frontend**
+- React.js  
+- Axios  
+- Responsive UI Components (Material UI / Tailwind)
 
-- Database: MongoDB 
+### **Backend**
+- Node.js  
+- Express.js  
+- JWT Authentication  
+- Nodemailer (Email Notifications)
 
-- Other Integrations: Nodemailer, JWT Auth, AI Chatbot (NLP), Chart.js
+### **Database**
+- MongoDB (Mongoose ORM)
 
-🎯 Key Features
+### **Other Integrations**
+- AI Chatbot (NLP-powered)  
+- Chart.js & Recharts (Data Visualization)  
+- Cloud Storage for File Uploads (Optional)
 
-📅 Appointment Scheduling
+---
 
-- Book, update, and cancel landscaping service appointments with calendar integration and email confirmations.
+## 🎯 Key Features
 
-👨‍💼 Employee & Career Management (My Contribution)
+### 📅 **Appointment Scheduling**
+- Book, update, and cancel landscaping appointments  
+- Calendar view integration  
+- Automated email confirmations  
+- Admin dashboard to manage schedules
 
-- Add, update, and remove employee records
+---
 
-- Assign roles and manage employee profiles
+### 👨‍💼 **Employee & Career Management (My Contribution)**
+- Add, update, and remove employee records  
+- Assign roles and manage employee profiles  
+- Track attendance, tasks, and performance  
+- Manage job vacancies, applicant submissions, and review process  
+- Search filters and report generation  
+- Automated salary and attendance insights  
+- Email notifications for hiring workflow  
 
-- Track performance, task history, and attendance
+---
 
-- View open positions and process applications
+### 🤖 **AI Chatbot Support**
+- NLP-based chatbot to assist customers  
+- Real-time answers for services, pricing, and booking  
+- Intelligent routing of customer inquiries  
 
-🤖 AI Chatbot Support
+---
 
-- Natural Language Processing-based chatbot for real-time customer support and query handling.
+### 🌾 **Inventory Management**
+- Manage tools, plants, fertilizers, and materials  
+- Low-stock alerts  
+- Supplier history and procurement tracking  
 
-🌾 Inventory Management
+---
 
-- Manage tools, plants, and fertilizers with low-stock alerts and supplier tracking.
+### 💰 **Finance & Payroll Module**
+- Automatic salary calculations  
+- Expense tracking and category-based logs  
+- Generate monthly/weekly financial summaries  
 
-💰 Finance & Payroll Module
+---
 
-- Automate salary calculations, expense tracking, and generate monthly financial summaries.
+### 📊 **Data Visualization**
+- Real-time employee performance charts  
+- Service demand metrics  
+- Dashboard analytics using **Chart.js** and **Recharts**
 
-📊 Data Visualization
+---
 
-- Realtime Employee Performance and status charts with Chart.js and Recharts
+## 📌 My Core Contribution
+I designed and developed the **Employee & Career Management Module**, ensuring smooth HR operations and end-to-end workflows. Key responsibilities include:
 
-📌 My Contribution
+- Implementing CRUD features for employee profiles  
+- Creating job opportunity and application management workflows  
+- Integrating attendance, tasks, and performance tracking  
+- Building a searchable employee directory  
+- Generating downloadable HR and performance reports  
+- Implementing automated email notifications using Nodemailer  
+- Creating responsive and user-friendly UI components  
+- Writing optimized backend endpoints with proper validation & security  
 
-I developed and integrated the Employee & Career Management Module, ensuring seamless management of HR operations with a user-friendly interface and robust backend functionality. This feature helps administrators:
+This module significantly improves administrative efficiency and workforce transparency.
 
-- Maintain updated employee records
+---
 
-- Monitor team performance and responsibilities
+## 📂 Project Structure
 
-- Simplify attendance and salary management
+/frontend # React.js Frontend
+├── src/
+├── components/
+├── pages/
+└── hooks/
 
-- Job opportunity and application management 
-
-- Generate Reports, Search Bar and Email notifications
-
-
-📂 Project Structure
-
-/frontend   # React.js Frontend
-
-/backend    # Node.js + Express Backend
-
-/config     # DB and API configurations
-
-/models     # MongoDB Models (Mongoose)
-
-/routes     # API Routes
-
-/controllers # Route Logic
-
+/backend # Node.js + Express Backend
+├── controllers/ # Business Logic
+├── routes/ # API Routes
+├── models/ # Mongoose Schemas
+├── config/ # DB & Server Configurations
+├── middleware/ # Auth & Error Handling
+└── utils/ # Helpers (Email, Tokens, etc.)
  
 ![Screenshot (795)](https://github.com/user-attachments/assets/542a1cfa-a937-4066-bb03-114c55288f73)
 
