@@ -2,238 +2,246 @@
 
 # 🌿 GREENSCAPE
 
-### Modern Landscaping Business Management System
+<div align="center">
 
-![License](https://img.shields.io/badge/license-Proprietary-blue.svg)
-![Node.js](https://img.shields.io/badge/Node.js-v14+-green.svg)
-![React](https://img.shields.io/badge/React-18.x-61dafb.svg)
-![MongoDB](https://img.shields.io/badge/MongoDB-4.4+-47A248.svg)
-![Status](https://img.shields.io/badge/status-Active-success.svg)
+# 🏢 Employee Management & Job Application System
+
+### A Modern Full-Stack HR Management Solution
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+</p>
 
 </div>
 
 ---
 
-## 📋 Overview
+## 📖 Project Overview
 
-GREENSCAPE is a comprehensive landscaping business management system designed to streamline operations, manage employee workflows, track finances, and enhance customer engagement. The platform provides an end-to-end solution for landscaping companies to manage appointments, inventory, maintenance, invoicing, and more.
+A comprehensive full-stack web application designed to streamline human resource management operations. This system provides an integrated platform for managing employees, job postings, applications, task assignments, and work allocation. Built with the MERN stack (MongoDB, Express.js, React, Node.js), the application delivers a modern, responsive, and scalable solution for organizations to efficiently handle their HR operations.
+
+### 🎯 Key Objectives
+
+- **Centralized Management**: Single platform for all HR-related activities
+- **Process Automation**: Streamline employee onboarding, task assignment, and work tracking
+- **Real-time Updates**: Instant synchronization across all modules
+- **User-Friendly Interface**: Intuitive design for enhanced user experience
+- **Scalable Architecture**: Built to grow with your organization's needs
 
 ## ✨ Features
 
-### 🎯 Core Functionality
-- 👥 **Employee Management**: Add, update, and manage employee records with role-based access control
-- 📝 **Task & Work Assignment**: Assign and track tasks and work orders for field employees
-- 📅 **Appointment Scheduling**: Manage customer appointments and service bookings
-- 📦 **Inventory Management**: Track supplies, equipment, and materials
-- 💰 **Financial Tracking**: Monitor transactions, invoices, and financial reports
-- 🔧 **Maintenance Management**: Schedule and track equipment and property maintenance
-- 💼 **Job Applications**: Process and manage career applications
-- ⭐ **Customer Feedback**: Collect and analyze customer feedback with AI-powered sentiment analysis
-- 🛠️ **Service Management**: Define and manage service offerings
-- 📊 **Usage Tracking**: Monitor resource and equipment usage
+<table>
+<tr>
+<td width="50%">
 
-### 🚀 Advanced Features
-- 🤖 **AI Chatbot**: Intelligent customer support with natural language processing
-- 📈 **Dashboard Analytics**: Real-time insights and reporting for business metrics
-- 🧾 **Invoice Generation**: Automated invoice creation and management
-- 🔐 **Multi-role Support**: Admin, employee, and customer portals
+### 👥 Employee Management
+- ➕ Add, view, update, and manage employee records
+- 📊 Employee dashboard with comprehensive information
+- 🔐 Role-based access control
+- 📝 Complete employee lifecycle management
 
-## 🛠️ Technology Stack
+</td>
+<td width="50%">
 
-### 🔙 Backend
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+### 💼 Job Management
+- 📢 Create and manage job postings
+- 🌐 Display available positions on career page
+- 📋 Job application tracking system
+- ✅ Application status monitoring
 
-- **Runtime**: Node.js
-- **Framework**: Express.js
-- **Database**: MongoDB (with Mongoose ODM)
-- **AI/ML**: Natural Language Processing for chatbot and feedback analysis
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-### 🎨 Frontend
-![R📁 eact](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+### ✅ Task Management
+- 📌 Assign tasks to employees
+- 📈 Track task status and progress
+- 🔄 Update and manage task workflows
+- ⏰ Task prioritization and deadlines
 
-- **Framework**: React.js
-- **Styling**: CSS3 with custom stylesheets
-- **UI Components**: Custom-built components for optimal performance
+</td>
+<td width="50%">
 
-## Project Structure
+### 💻 Work Assignment
+- 🎯 Allocate work to team members
+- 👀 Monitor work completion
+- 📊 Update work status
+- 📑 Workload distribution tracking
 
-```
-GREENSCAPE/
-├── backend/                    # Server-side application
-│   ├── controllers/           # Business logic controllers
-│   ├── models/                # Database models and schemas
-│   ├── routes/                # API route definitions
-│   ├── uploads/               # File upload directory
-│   ├── model.nlp              # NLP model for chatbot
-│   ├── server.js              # Express server entry point
-│   └── package.json           # Backend dependencies
-│
-└── frontend/                   # Client-side application
-    ├── public/                # Static assets
-    ├── src/
-    │   ├── Components/        # Reusable React components
-    │   ├── feedback/          # Feedback system components
-    │   ├── finance/           # Financial management components
-    │   ├── Inventory/         # Inventory management components
-    │   ├── pages/             # Application pages
-    │   ├── App.js             # Main application component
-    │   └── index.js           # Application entry point
-    └── package.json           # Frontend dependencies
-```
+</td>
+</tr>
+</table>
 
-## ⚙️ Installation
+### 🎛️ Admin Panel
+- 🖥️ Centralized administration dashboard
+- 👨‍💼 User management capabilities
+- 📡 System-wide monitoring
+- 📊 Analytics and reporting
 
-### 📋 Prerequisites
-- ✅ Node.js (v14 or higher)
-- ✅ MongoDB (v4.4 or higher)
-- ✅ npm or yarn package manager
-
-### 🔙 Backend Setup
-
-1. Navigate to the backend directory:
-   ```bash
-   cd backend
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Create a `.env` file in the backend directory with the following variables:
-   ```env
-   PORT=5000
-   MONGODB_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret_key
-   NODE_ENV=development
-   ```
-
-4. Start the backend server:
-   ```bash
-   npm start
-   ```
-
-### 🎨 Frontend Setup
-
-1. Navigate to the frontend directory:
-   ```bash
-   cd frontend
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Create a `.env` file in the frontend directory:
-   ```env
-   REACT_APP_API_URL=http://localhost:5000
-   ```
-
-4. Start the development server:
-   ```bash
-   npm start
-   ```
-
-The application will be available at `http://localhost:3000`
-
-## 🌐 API Endpoints
-
-### 🔐 Authentication
-- `POST /api/auth/register` - Register new user
-- `POST /api/auth/login` - User login
-
-### 👥 Employees
-- `GET /api/employees` - Get all employees
-- `POST /api/employees` - Add new employee
-- `PUT /api/employees/:id` - Update employee
-- `DELETE /api/employees/:id` - Delete employee
-
-### 📅 Appointments
-- `GET /api/appointments` - Get all appointments
-- `POST /api/appointments` - Create appointment
-- `PUT /api/appointments/:id` - Update appointment
-- `DELETE /api/appointments/:id` - Cancel appointment
-
-### 📦 Inventory
-- `GET /api/inventory` - Get inventory items
-- `POST /api/inventory` - Add inventory item
-- `PUT /api/inventory/:id` - Update inventory item
-- `DELETE /api/inventory/:id` - Remove inventory item
-
-### 💰 Financial Transactions
-- `GET /api/transactions` - Get all transactions
-- `POST /api/transactions` - Create transaction
-- `GET /api/transactions/summary` - Get financial summary
-
-### 📝 Tasks & Work Orders
-- `GET /api/tasks` - Get all tasks
-- `POST /api/tasks` - Create task
-- `PUT /api/tasks/:id` - Update task
-- `GET /api/work` - Get work orders
-- `POST /api/work` - Create work order
-
-### ⭐ Feedback
-- `GET /api/feedback` - Get all feedback
-- `POST /api/feedback` - Submit feedback
-- `GET /api/feedback/analytics` - Get feedback analytics
-
-_For complete API documentation, refer to the individual route files in `backend/routes/`_
-
-## 💡 Usage
-
-### 👨‍💼 Admin Dashboard
-1. 🔑 Log in with admin credentials
-2. 📊 Access the admin dashboard to view business metrics
-3. 🛠️ Manage employees, inventory, and services
-4. 📈 Review financial reports and analytics
-
-### 👷 Employee Portal
-1. 🔑 Log in with employee credentials
-2. 📋 View assigned tasks and work orders
-3. ✅ Update task status and progress
-4. ⏱️ Submit time and usage reports
-
-### 🧑‍🤝‍🧑 Customer Interface
-1. 🔍 Browse available services
-2. 📅 Book appointments
-3. ⭐ Submit feedback and reviews
-4. 💼 Apply for career opportunities
-
-## 🤝 Contributing
-
-We welcome contributions to GREENSCAPE! Please follow these steps:
-
-1. 🍴 Fork the repository
-2. 🌱 Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. 💾 Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. 📤 Push to the branch (`git push origin feature/AmazingFeature`)
-5. 🔄 Open a Pull Request
-
-## 📄 License
-
-This project is proprietary software. All rights reserved.
-
-## 📧 Contact
-
-For questions or support, please contact the development team.
-
-## 🙏 Acknowledgments
-
-- 🚀 Built with modern web technologies for optimal performance
-- 🎨 Designed with user experience and business efficiency in mind
-- 🔄 Continuously updated with new features and improvements
-
----
+## 🚀 Technology Stack
 
 <div align="center">
 
-**Made with 💚 for the landscaping industry**
+### Frontend Technologies
 
-⭐ Star this repo if you find it helpful!
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt="React Router" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" alt="Axios" />
+</p>
+
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| ⚛️ **React** | 18.x | Component-based UI library for building dynamic user interfaces |
+| 🛣️ **React Router** | 6.x | Declarative routing for React applications |
+| 🎨 **CSS3** | - | Modern styling with flexbox, grid, and animations |
+| 📡 **Axios** | 1.x | Promise-based HTTP client for API communication |
+
+### 🖥️ Backend Technologies
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white" alt="Mongoose" />
+</p>
+
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| 🟢 **Node.js** | 14+ | JavaScript runtime for server-side execution |
+| 🚂 **Express.js** | 4.x | Minimalist web framework for building RESTful APIs |
+| 🍃 **MongoDB** | 4+ | NoSQL database for flexible data storage |
+| 🔗 **Mongoose** | 6.x | Elegant MongoDB object modeling with schema validation |
+| 📤 **Multer** | 1.x | Middleware for handling multipart/form-data (file uploads) |
 
 </div>
+
+---
+
+## 🏗️ System Architecture
+
+<div align="center">
+
+### Architecture Pattern: MVC (Model-View-Controller)
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                         CLIENT LAYER                         │
+│                    (React Application)                       │
+└───────────────────────┬─────────────────────────────────────┘
+                        │
+                        │ HTTP/HTTPS Requests
+                        │ (REST API)
+                        ▼
+┌─────────────────────────────────────────────────────────────┐
+│                     PRESENTATION LAYER                       │
+│                   (Express.js Routes)                        │
+│  ┌──────────┬──────────┬──────────┬──────────┬──────────┐  │
+│  │Employee  │   Job    │  Task    │  Work    │  App     │  │
+│  │ Routes   │  Routes  │  Routes  │  Routes  │  Routes  │  │
+│  └──────────┴──────────┴──────────┴──────────┴──────────┘  │
+└───────────────────────┬─────────────────────────────────────┘
+                        │
+                        ▼
+┌─────────────────────────────────────────────────────────────┐
+│                      BUSINESS LOGIC LAYER                    │
+│                      (Controllers)                           │
+│  ┌──────────┬──────────┬──────────┬──────────┬──────────┐  │
+│  │Employee  │   Job    │  Task    │  Work    │JobApp    │  │
+│  │Controller│Controller│Controller│Controller│Controller│  │
+│  └──────────┴──────────┴──────────┴──────────┴──────────┘  │
+└───────────────────────┬─────────────────────────────────────┘
+                        │
+                        ▼
+┌─────────────────────────────────────────────────────────────┐
+│                       DATA ACCESS LAYER                      │
+│                    (Mongoose Models)                         │
+│  ┌──────────┬──────────┬──────────┬──────────┬──────────┐  │
+│  │Employee  │   Job    │  Task    │  Work    │JobApp    │  │
+│  │  Model   │  Model   │  Model   │  Model   │  Model   │  │
+│  └──────────┴──────────┴──────────┴──────────┴──────────┘  │
+└───────────────────────┬─────────────────────────────────────┘
+                        │
+                        ▼
+┌─────────────────────────────────────────────────────────────┐
+│                       DATABASE LAYER                         │
+│                      (MongoDB Atlas)                         │
+│            Collections: employees, jobs, tasks,              │
+│                  work, jobApplications                       │
+└─────────────────────────────────────────────────────────────┘
+```
+
+</div>
+
+### 📐 Architecture Components
+
+#### 🎨 Frontend Architecture
+```
+frontend/
+├── Components/              # React Components
+│   ├── AddEmployee.js      # Employee form component
+│   ├── AllEmployee.js      # Employee list component
+│   ├── Adminpage.js        # Admin dashboard
+│   ├── TaskAssign.js       # Task management
+│   ├── WorkAssign.js       # Work allocation
+│   └── CareerPage.js       # Public job listings
+├── App.js                  # Root component & routing
+└── index.js                # Application entry point
+```
+
+#### 🖥️ Backend Architecture
+```
+BACKEND/
+├── models/                 # Data schemas
+│   ├── Employee.js        # Employee schema
+│   ├── job.js            # Job schema
+│   ├── Task.js           # Task schema
+│   ├── Work.js           # Work schema
+│   └── jobApplication.js # Application schema
+├── controllers/           # Business logic
+│   ├── employeeController.js
+│   ├── jobsController.js
+│   ├── taskController.js
+│   └── workController.js
+├── routes/               # API endpoints
+│   ├── employee.js
+│   ├── jobs.js
+│   ├── taskRoutes.js
+│   └── work.js
+└── server.js            # Express server configuration
+```
+
+### 🔄 Data Flow
+
+1. **Client Request** → User interacts with React components
+2. **API Call** → Axios sends HTTP request to Express server
+3. **Routing** → Express router directs request to appropriate controller
+4. **Business Logic** → Controller processes request and validates data
+5. **Database Operation** → Mongoose performs CRUD operations on MongoDB
+6. **Response** → Data flows back through layers to the client
+7. **UI Update** → React re-renders components with new data
+
+### 🔐 Security Features
+
+- 🛡️ Input validation and sanitization
+- 🔒 Secure file upload handling
+- 🌐 CORS configuration
+- 📝 Error handling middleware
+- 🔑 Environment variable protection
+
+### 📊 Key Design Patterns
+
+- **MVC Pattern**: Separation of concerns across Model-View-Controller
+- **RESTful API**: Standard HTTP methods for CRUD operations
+- **Component-Based**: Reusable React components
+- **Modular Structure**: Clear separation of routes, controllers, and models
+- **Single Responsibility**: Each module handles one specific feature
+
+---
+
+
