@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌿 GREENSCAPE
+# # 🌿 GREENSCAPE HR Management
 
 <div align="center">
 
